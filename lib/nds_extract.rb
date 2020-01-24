@@ -51,7 +51,7 @@ def movies_with_director_key(name, movies_collection)
   
   i = 0
   while i < movies_collection.size do
-    movies_collection[movie_index][:director_name] = director_name
+    movies_collection[i][:director_name] = director_name
     movie_index += 1
   end
 end
