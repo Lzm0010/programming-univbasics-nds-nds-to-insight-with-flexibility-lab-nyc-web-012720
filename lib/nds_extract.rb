@@ -87,7 +87,7 @@ def movies_with_directors_set(source)
     
     movie_index = 0
     while movie_index < movie_array.size do
-      
+      movie_array[movie_index]
       movie_index += 1
     end
     
