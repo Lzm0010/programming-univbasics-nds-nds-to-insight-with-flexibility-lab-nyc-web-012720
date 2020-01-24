@@ -53,7 +53,6 @@ def movies_with_director_key(name, movies_collection)
   pp movies_collection
 end
 
-movies_with_director_key
 
 def gross_per_studio(collection)
   # GOAL: Given an Array of Hashes where each Hash represents a movie,
