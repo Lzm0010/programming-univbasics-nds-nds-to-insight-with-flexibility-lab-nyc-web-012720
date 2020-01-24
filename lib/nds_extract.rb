@@ -73,7 +73,10 @@ def gross_per_studio(collection)
   
   result = {}
   
-  i = 0 
+  i = 0
+  while i < collection.size do
+    
+  end
 end
 
 def movies_with_directors_set(source)
