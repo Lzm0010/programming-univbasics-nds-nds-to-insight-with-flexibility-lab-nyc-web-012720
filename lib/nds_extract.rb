@@ -78,6 +78,7 @@ def gross_per_studio(collection)
     else
       result[studio_name] = movie_gross
     end
+    i += 1 
   end
 end
 
