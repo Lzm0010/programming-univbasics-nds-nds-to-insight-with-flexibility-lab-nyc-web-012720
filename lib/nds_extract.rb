@@ -50,7 +50,7 @@ def movies_with_director_key(name, movies_collection)
   # movie_with_director_name method
   
   movie_index = 0
-  while movie_index < movie_array.size do
+  while movie_index < movies_collection.size do
     movie_array[movie_index][:director_name] = director_name
     movie_index += 1
   end
