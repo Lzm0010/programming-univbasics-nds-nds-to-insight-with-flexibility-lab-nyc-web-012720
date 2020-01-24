@@ -92,7 +92,7 @@ def movies_with_directors_set(source)
     
     updated_movies = movies_with_director_key(director_name, movie_array)
     
-    result << movie_array
+    result << updated_movies
     i += 1
   end
   
