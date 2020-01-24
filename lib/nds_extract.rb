@@ -90,9 +90,7 @@ def movies_with_directors_set(source)
     director_name = source[i][:name]
     movie_array = source[i][:movies]
     
-    
-    movies_with_director_key(director_name, movie_array)
-    
+    updated_movies = movies_with_director_key(director_name, movie_array)
     
     result << movie_array
     i += 1
