@@ -54,6 +54,8 @@ def movies_with_director_key(name, movies_collection)
     movies_collection[i][:director_name] = name
     movie_index += 1
   end
+  
+  movies_collection
 end
 
 def gross_per_studio(collection)
