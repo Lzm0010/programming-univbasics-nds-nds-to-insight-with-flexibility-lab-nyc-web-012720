@@ -81,6 +81,10 @@ def movies_with_directors_set(source)
   result = []
   
   i = 0 
+  while i < source.size do
+    
+    i += 1
+  end
 end
 
 # ----------------    End of Your Code Region --------------------
