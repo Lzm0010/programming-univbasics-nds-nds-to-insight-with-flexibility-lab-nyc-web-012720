@@ -50,9 +50,8 @@ def movies_with_director_key(name, movies_collection)
   # movie_with_director_name method
   
   updated_movies = []
-  pp movies_collection
+  movie_with_director_name(name,movies_collection)
 end
-
 
 def gross_per_studio(collection)
   # GOAL: Given an Array of Hashes where each Hash represents a movie,
