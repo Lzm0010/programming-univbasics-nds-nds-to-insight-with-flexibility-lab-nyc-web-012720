@@ -94,6 +94,8 @@ def movies_with_directors_set(source)
     result << movie_array
     i += 1
   end
+  
+  result
 end
 
 # ----------------    End of Your Code Region --------------------
