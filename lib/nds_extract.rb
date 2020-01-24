@@ -49,8 +49,11 @@ def movies_with_director_key(name, movies_collection)
   # :director_name key. This addition can be done by using the provided
   # movie_with_director_name method
   
-  # updated_movies = []
-  # movie_with_director_name(name, movies_collection)
+  movie_index = 0
+  while movie_index < movie_array.size do
+    movie_array[movie_index][:director_name] = director_name
+    movie_index += 1
+  end
 end
 
 def gross_per_studio(collection)
@@ -87,11 +90,7 @@ def movies_with_directors_set(source)
     
     
     movies_with_director_key(director_name, movie_array)
-    movie_index = 0
-    while movie_index < movie_array.size do
-      movie_array[movie_index][:director_name] = director_name
-      movie_index += 1
-    end
+    
     
     result << movie_array
     i += 1
