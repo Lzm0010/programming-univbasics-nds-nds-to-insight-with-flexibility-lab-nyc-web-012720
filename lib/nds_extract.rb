@@ -91,6 +91,7 @@ def movies_with_directors_set(source)
       movie_index += 1
     end
     
+    result << movie_array
     i += 1
   end
 end
